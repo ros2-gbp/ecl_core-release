@@ -1,0 +1,13 @@
+Source: ros-iron-ecl-threads
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-cmake-ros, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ecl-build, ros-iron-ecl-concepts, ros-iron-ecl-config, ros-iron-ecl-errors, ros-iron-ecl-exceptions, ros-iron-ecl-license, ros-iron-ecl-time, ros-iron-ecl-utilities, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_threads
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-threads
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-build, ros-iron-ecl-concepts, ros-iron-ecl-config, ros-iron-ecl-errors, ros-iron-ecl-exceptions, ros-iron-ecl-license, ros-iron-ecl-time, ros-iron-ecl-utilities, ros-iron-ros-workspace
+Description: This package provides the c++ extensions for a variety of threaded programming tools.
+ These are usually different on different platforms, so the architecture for a cross-platform framework is also implemented.
