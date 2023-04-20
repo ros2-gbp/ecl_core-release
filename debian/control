@@ -1,0 +1,13 @@
+Source: ros-iron-ecl-converters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-cmake-ros, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ecl-build, ros-iron-ecl-concepts, ros-iron-ecl-config, ros-iron-ecl-errors, ros-iron-ecl-exceptions, ros-iron-ecl-license, ros-iron-ecl-mpl, ros-iron-ecl-type-traits, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-converters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-concepts, ros-iron-ecl-config, ros-iron-ecl-errors, ros-iron-ecl-exceptions, ros-iron-ecl-license, ros-iron-ecl-mpl, ros-iron-ecl-type-traits, ros-iron-ros-workspace
+Description: Some fast/convenient type converters, mostly for char strings or strings.
+ These are not really fully fleshed out, alot of them could use the addition for the whole range of fundamental types (e.g. all integers, not just int, unsigned int). They will come as the need arises.
