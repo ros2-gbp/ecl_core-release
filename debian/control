@@ -1,0 +1,13 @@
+Source: ros-iron-ecl-containers
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-cmake-ros, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ecl-build, ros-iron-ecl-config, ros-iron-ecl-converters, ros-iron-ecl-errors, ros-iron-ecl-exceptions, ros-iron-ecl-formatters, ros-iron-ecl-license, ros-iron-ecl-mpl, ros-iron-ecl-type-traits, ros-iron-ecl-utilities, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_containers
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-containers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-config, ros-iron-ecl-converters, ros-iron-ecl-errors, ros-iron-ecl-exceptions, ros-iron-ecl-formatters, ros-iron-ecl-license, ros-iron-ecl-mpl, ros-iron-ecl-type-traits, ros-iron-ecl-utilities, ros-iron-ros-workspace
+Description: The containers included here are intended to extend the stl containers.
+ In all cases, these implementations are designed to implement c++ conveniences and safety where speed is not sacrificed. Also includes techniques for memory debugging of common problems such as buffer overruns.
