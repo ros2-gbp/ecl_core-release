@@ -1,0 +1,12 @@
+Source: ros-iron-ecl-math
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-cmake-ros, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ecl-build, ros-iron-ecl-license, ros-iron-ecl-type-traits, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_math
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-math
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-license, ros-iron-ecl-type-traits, ros-iron-ros-workspace
+Description: This package provides simple support to cmath, filling in holes or redefining in a c++ formulation where desirable.
