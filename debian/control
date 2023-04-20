@@ -1,0 +1,13 @@
+Source: ros-iron-ecl-geometry
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-cmake-ros, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ecl-build, ros-iron-ecl-config, ros-iron-ecl-containers, ros-iron-ecl-exceptions, ros-iron-ecl-formatters, ros-iron-ecl-license, ros-iron-ecl-linear-algebra, ros-iron-ecl-math, ros-iron-ecl-mpl, ros-iron-ecl-type-traits, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_geometry
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-geometry
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-build, ros-iron-ecl-config, ros-iron-ecl-containers, ros-iron-ecl-exceptions, ros-iron-ecl-formatters, ros-iron-ecl-license, ros-iron-ecl-linear-algebra, ros-iron-ecl-math, ros-iron-ecl-mpl, ros-iron-ecl-type-traits, ros-iron-ros-workspace
+Description: Any tools relating to mathematical geometry.
+ Primarily featuring polynomials and interpolations.
