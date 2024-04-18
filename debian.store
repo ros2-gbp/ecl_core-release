@@ -1,1 +1,1 @@
-{"base": "d823b2432", "parent": "debian/rolling/ecl_mobile_robot", "previous": "9542e40e6", "trim": "", "trimbase": ""}
+{"base": "6bdf95883", "parent": "debian/jazzy/ecl_mobile_robot", "previous": "649d9c5b7", "trim": "", "trimbase": ""}
