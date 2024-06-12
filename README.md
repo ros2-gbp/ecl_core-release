@@ -1,3 +1,51 @@
+## ecl_core (humble) - 1.2.1-1
+
+The packages in the `ecl_core` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble ecl_core` on `Wed, 12 Jun 2024 14:26:05 -0000`
+
+These packages were released:
+- `ecl_command_line`
+- `ecl_concepts`
+- `ecl_containers`
+- `ecl_converters`
+- `ecl_core`
+- `ecl_core_apps`
+- `ecl_devices`
+- `ecl_eigen`
+- `ecl_exceptions`
+- `ecl_filesystem`
+- `ecl_formatters`
+- `ecl_geometry`
+- `ecl_ipc`
+- `ecl_linear_algebra`
+- `ecl_manipulators`
+- `ecl_math`
+- `ecl_mobile_robot`
+- `ecl_mpl`
+- `ecl_sigslots`
+- `ecl_statistics`
+- `ecl_streams`
+- `ecl_threads`
+- `ecl_time`
+- `ecl_type_traits`
+- `ecl_utilities`
+
+Version of package(s) in repository `ecl_core`:
+
+- upstream repository: https://github.com/stonier/ecl_core.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.2.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## ecl_core (rolling) - 1.2.1-1
 
 The packages in the `ecl_core` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling ecl_core` on `Tue, 27 Sep 2022 06:25:17 -0000`
