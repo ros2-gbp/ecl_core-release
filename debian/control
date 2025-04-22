@@ -1,0 +1,13 @@
+Source: ros-kilted-ecl-containers
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ecl-build, ros-kilted-ecl-config, ros-kilted-ecl-converters, ros-kilted-ecl-errors, ros-kilted-ecl-exceptions, ros-kilted-ecl-formatters, ros-kilted-ecl-license, ros-kilted-ecl-mpl, ros-kilted-ecl-type-traits, ros-kilted-ecl-utilities, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/ecl_containers
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-containers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-config, ros-kilted-ecl-converters, ros-kilted-ecl-errors, ros-kilted-ecl-exceptions, ros-kilted-ecl-formatters, ros-kilted-ecl-license, ros-kilted-ecl-mpl, ros-kilted-ecl-type-traits, ros-kilted-ecl-utilities, ros-kilted-ros-workspace
+Description: The containers included here are intended to extend the stl containers.
+ In all cases, these implementations are designed to implement c++ conveniences and safety where speed is not sacrificed. Also includes techniques for memory debugging of common problems such as buffer overruns.
