@@ -1,1 +1,1 @@
-{"base": "43a926d08", "parent": "debian/rolling/ecl_core_apps", "previous": "6b63f4beb", "trim": "", "trimbase": ""}
+{"base": "f7cdb01e7a26", "parent": "debian/kilted/ecl_core_apps", "previous": "5aa55ce80b86", "trim": "", "trimbase": ""}
