@@ -1,0 +1,13 @@
+Source: ros-kilted-ecl-sigslots
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ecl-build, ros-kilted-ecl-config, ros-kilted-ecl-license, ros-kilted-ecl-threads, ros-kilted-ros-workspace
+Homepage: http://ros.org/wiki/ecl_sigslots
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-sigslots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-config, ros-kilted-ecl-license, ros-kilted-ecl-threads, ros-kilted-ros-workspace
+Description: Provides a signal/slot mechanism (in the same vein as qt sigslots, boost::signals etc for intra-process communication.
+ These include some improvements - they do not need a preprocessor, are fully type safe, allow for simple connections via a posix style string identifier and are multithread-safe.
