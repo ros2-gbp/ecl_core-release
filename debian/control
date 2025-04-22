@@ -1,0 +1,13 @@
+Source: ros-kilted-ecl-core-apps
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-ros, ros-kilted-ecl-build, ros-kilted-ecl-command-line, ros-kilted-ecl-config, ros-kilted-ecl-containers, ros-kilted-ecl-converters, ros-kilted-ecl-devices, ros-kilted-ecl-errors, ros-kilted-ecl-exceptions, ros-kilted-ecl-formatters, ros-kilted-ecl-geometry, ros-kilted-ecl-ipc, ros-kilted-ecl-license, ros-kilted-ecl-linear-algebra, ros-kilted-ecl-sigslots, ros-kilted-ecl-streams, ros-kilted-ecl-threads, ros-kilted-ecl-time-lite, ros-kilted-ecl-type-traits, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/ecl_core_apps
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-core-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-build, ros-kilted-ecl-command-line, ros-kilted-ecl-config, ros-kilted-ecl-containers, ros-kilted-ecl-converters, ros-kilted-ecl-devices, ros-kilted-ecl-errors, ros-kilted-ecl-exceptions, ros-kilted-ecl-formatters, ros-kilted-ecl-geometry, ros-kilted-ecl-ipc, ros-kilted-ecl-license, ros-kilted-ecl-linear-algebra, ros-kilted-ecl-sigslots, ros-kilted-ecl-streams, ros-kilted-ecl-threads, ros-kilted-ecl-time-lite, ros-kilted-ecl-type-traits, ros-kilted-ros-workspace
+Description: This includes a suite of programs demo'ing various aspects of the ecl_core.
+ It also includes various benchmarking and utility programs for use primarily with embedded systems.
