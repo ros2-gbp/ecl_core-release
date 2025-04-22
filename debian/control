@@ -1,0 +1,13 @@
+Source: ros-kilted-ecl-converters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ecl-build, ros-kilted-ecl-concepts, ros-kilted-ecl-config, ros-kilted-ecl-errors, ros-kilted-ecl-exceptions, ros-kilted-ecl-license, ros-kilted-ecl-mpl, ros-kilted-ecl-type-traits, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-converters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-concepts, ros-kilted-ecl-config, ros-kilted-ecl-errors, ros-kilted-ecl-exceptions, ros-kilted-ecl-license, ros-kilted-ecl-mpl, ros-kilted-ecl-type-traits, ros-kilted-ros-workspace
+Description: Some fast/convenient type converters, mostly for char strings or strings.
+ These are not really fully fleshed out, alot of them could use the addition for the whole range of fundamental types (e.g. all integers, not just int, unsigned int). They will come as the need arises.
