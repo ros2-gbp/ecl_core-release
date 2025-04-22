@@ -1,0 +1,12 @@
+Source: ros-kilted-ecl-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-ros, ros-kilted-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_core
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-command-line, ros-kilted-ecl-concepts, ros-kilted-ecl-containers, ros-kilted-ecl-converters, ros-kilted-ecl-core-apps, ros-kilted-ecl-devices, ros-kilted-ecl-eigen, ros-kilted-ecl-exceptions, ros-kilted-ecl-formatters, ros-kilted-ecl-geometry, ros-kilted-ecl-ipc, ros-kilted-ecl-linear-algebra, ros-kilted-ecl-math, ros-kilted-ecl-mpl, ros-kilted-ecl-sigslots, ros-kilted-ecl-statistics, ros-kilted-ecl-streams, ros-kilted-ecl-threads, ros-kilted-ecl-time, ros-kilted-ecl-type-traits, ros-kilted-ecl-utilities, ros-kilted-ros-workspace
+Description: A set of tools and interfaces extending the capabilities of c++ to provide a lightweight, consistent interface with a focus for control programming.
