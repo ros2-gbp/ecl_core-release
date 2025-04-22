@@ -1,0 +1,12 @@
+Source: ros-kilted-ecl-linear-algebra
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ecl-build, ros-kilted-ecl-converters, ros-kilted-ecl-eigen, ros-kilted-ecl-exceptions, ros-kilted-ecl-formatters, ros-kilted-ecl-license, ros-kilted-ecl-math, ros-kilted-sophus, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/ecl_linear_algebra
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-linear-algebra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-build, ros-kilted-ecl-converters, ros-kilted-ecl-eigen, ros-kilted-ecl-exceptions, ros-kilted-ecl-formatters, ros-kilted-ecl-license, ros-kilted-ecl-math, ros-kilted-sophus, ros-kilted-ros-workspace
+Description: Ecl frontend to a linear matrix package (currently eigen).
