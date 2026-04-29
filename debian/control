@@ -1,0 +1,13 @@
+Source: ros-lyrical-ecl-ipc
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ecl-build, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-license, ros-lyrical-ecl-threads, ros-lyrical-ecl-time, ros-lyrical-ecl-time-lite, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_ipc
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-ipc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-build, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-license, ros-lyrical-ecl-threads, ros-lyrical-ecl-time, ros-lyrical-ecl-time-lite, ros-lyrical-ros-workspace
+Description: Interprocess mechanisms vary greatly across platforms - sysv, posix, win32, there are more than a few.
+ This package provides an infrastructure to allow for developing cross platform c++ wrappers around the lower level c api's that handle these mechanisms. These make it not only easier to utilise such mechanisms, but allow it to be done consistently across platforms.
