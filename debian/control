@@ -1,0 +1,13 @@
+Source: ros-lyrical-ecl-core-apps
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-ros, ros-lyrical-ecl-build, ros-lyrical-ecl-command-line, ros-lyrical-ecl-config, ros-lyrical-ecl-containers, ros-lyrical-ecl-converters, ros-lyrical-ecl-devices, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-formatters, ros-lyrical-ecl-geometry, ros-lyrical-ecl-ipc, ros-lyrical-ecl-license, ros-lyrical-ecl-linear-algebra, ros-lyrical-ecl-sigslots, ros-lyrical-ecl-streams, ros-lyrical-ecl-threads, ros-lyrical-ecl-time-lite, ros-lyrical-ecl-type-traits, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_core_apps
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-core-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-build, ros-lyrical-ecl-command-line, ros-lyrical-ecl-config, ros-lyrical-ecl-containers, ros-lyrical-ecl-converters, ros-lyrical-ecl-devices, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-formatters, ros-lyrical-ecl-geometry, ros-lyrical-ecl-ipc, ros-lyrical-ecl-license, ros-lyrical-ecl-linear-algebra, ros-lyrical-ecl-sigslots, ros-lyrical-ecl-streams, ros-lyrical-ecl-threads, ros-lyrical-ecl-time-lite, ros-lyrical-ecl-type-traits, ros-lyrical-ros-workspace
+Description: This includes a suite of programs demo'ing various aspects of the ecl_core.
+ It also includes various benchmarking and utility programs for use primarily with embedded systems.
