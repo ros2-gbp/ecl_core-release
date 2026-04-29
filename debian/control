@@ -1,0 +1,13 @@
+Source: ros-lyrical-ecl-threads
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ecl-build, ros-lyrical-ecl-concepts, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-license, ros-lyrical-ecl-time, ros-lyrical-ecl-utilities, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_threads
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-threads
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-build, ros-lyrical-ecl-concepts, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-license, ros-lyrical-ecl-time, ros-lyrical-ecl-utilities, ros-lyrical-ros-workspace
+Description: This package provides the c++ extensions for a variety of threaded programming tools.
+ These are usually different on different platforms, so the architecture for a cross-platform framework is also implemented.
