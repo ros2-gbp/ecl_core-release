@@ -1,0 +1,12 @@
+Source: ros-lyrical-ecl-linear-algebra
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ecl-build, ros-lyrical-ecl-converters, ros-lyrical-ecl-eigen, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-formatters, ros-lyrical-ecl-license, ros-lyrical-ecl-math, ros-lyrical-sophus, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_linear_algebra
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-linear-algebra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-build, ros-lyrical-ecl-converters, ros-lyrical-ecl-eigen, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-formatters, ros-lyrical-ecl-license, ros-lyrical-ecl-math, ros-lyrical-sophus, ros-lyrical-ros-workspace
+Description: Ecl frontend to a linear matrix package (currently eigen).
