@@ -1,0 +1,12 @@
+Source: ros-lyrical-ecl-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-ros, ros-lyrical-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_core
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-command-line, ros-lyrical-ecl-concepts, ros-lyrical-ecl-containers, ros-lyrical-ecl-converters, ros-lyrical-ecl-core-apps, ros-lyrical-ecl-devices, ros-lyrical-ecl-eigen, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-formatters, ros-lyrical-ecl-geometry, ros-lyrical-ecl-ipc, ros-lyrical-ecl-linear-algebra, ros-lyrical-ecl-math, ros-lyrical-ecl-mpl, ros-lyrical-ecl-sigslots, ros-lyrical-ecl-statistics, ros-lyrical-ecl-streams, ros-lyrical-ecl-threads, ros-lyrical-ecl-time, ros-lyrical-ecl-type-traits, ros-lyrical-ecl-utilities, ros-lyrical-ros-workspace
+Description: A set of tools and interfaces extending the capabilities of c++ to provide a lightweight, consistent interface with a focus for control programming.
