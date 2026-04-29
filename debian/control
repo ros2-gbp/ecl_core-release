@@ -1,0 +1,13 @@
+Source: ros-lyrical-ecl-converters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ecl-build, ros-lyrical-ecl-concepts, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-license, ros-lyrical-ecl-mpl, ros-lyrical-ecl-type-traits, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-converters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-concepts, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-license, ros-lyrical-ecl-mpl, ros-lyrical-ecl-type-traits, ros-lyrical-ros-workspace
+Description: Some fast/convenient type converters, mostly for char strings or strings.
+ These are not really fully fleshed out, alot of them could use the addition for the whole range of fundamental types (e.g. all integers, not just int, unsigned int). They will come as the need arises.
