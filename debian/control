@@ -1,0 +1,12 @@
+Source: ros-lyrical-ecl-math
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ecl-build, ros-lyrical-ecl-license, ros-lyrical-ecl-type-traits, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_math
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-math
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-license, ros-lyrical-ecl-type-traits, ros-lyrical-ros-workspace
+Description: This package provides simple support to cmath, filling in holes or redefining in a c++ formulation where desirable.
