@@ -1,0 +1,13 @@
+Source: ros-lyrical-ecl-containers
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ecl-build, ros-lyrical-ecl-config, ros-lyrical-ecl-converters, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-formatters, ros-lyrical-ecl-license, ros-lyrical-ecl-mpl, ros-lyrical-ecl-type-traits, ros-lyrical-ecl-utilities, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_containers
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-containers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-config, ros-lyrical-ecl-converters, ros-lyrical-ecl-errors, ros-lyrical-ecl-exceptions, ros-lyrical-ecl-formatters, ros-lyrical-ecl-license, ros-lyrical-ecl-mpl, ros-lyrical-ecl-type-traits, ros-lyrical-ecl-utilities, ros-lyrical-ros-workspace
+Description: The containers included here are intended to extend the stl containers.
+ In all cases, these implementations are designed to implement c++ conveniences and safety where speed is not sacrificed. Also includes techniques for memory debugging of common problems such as buffer overruns.
